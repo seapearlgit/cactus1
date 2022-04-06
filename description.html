@@ -3,31 +3,63 @@
 <head>
     <title>baby cactus in a pot 구매 페이지입니다.</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <u><strong><h1><a href="index.html">Baby cactus in a pot</a></h1></strong></u>
-    <br>
-    <h2><a href="https://opensea.io/collection/babycactus-potted">선인장 리스트</a></h2>
-        <ul>
-            <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814221056542769153">아기 선인장#1</a></li>
-            <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814222156054396929">아기 선인장#2</a></li>
-            <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814223255566024705">아기 선인장#3</a></li>
-            <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814224355077652481">아기 선인장#4</a></li>
-            <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814225454589280257">아기 선인장#5</a></li>
-        </ul>
-    <br>
-    <h2>선인장 구매 방법</h2>
-    <p>
-        선인장 리스트에서 원하는 선인장을 클릭하시오.
-        <br><br>
-        <a href="description.html">자세한 설명보기</a>
-        <ol>
-            <li>지갑을 준비합니다.</li>
-            <li>opensea와 지갑을 연결합니다. </li>
-            <li>선인장을 클릭 후 구매버튼을 누릅니다. </li>
-        </ol>
-    </p>
+    <h1><strong><a href="index.html" id="title">Baby cactus in a pot</a></strong></h1>
+    <div id="grid">
+        <div id="list">
+            <h2><a href="https://opensea.io/collection/babycactus-potted">선인장 리스트</a></h2>
+            <ul>
+                <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814221056542769153" target="_blank" title="아기선인장#1">아기 선인장#1</a></li>
+                <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814222156054396929">아기 선인장#2</a></li>
+                <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814223255566024705">아기 선인장#3</a></li>
+                <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814224355077652481">아기 선인장#4</a></li>
+                <li><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/10255994983699005699957019438976539253524815994542575423560814225454589280257">아기 선인장#5</a></li>
+            </ul>
+        </div>
+        <div id="article">
+            <h2>선인장 구매 방법</h2>
+            <p>
+                선인장 리스트에서 원하는 선인장을 클릭하시오.
+                <a href="index.html">설명 닫기</a>
+                <ol> 
+                    <li>Opensea 사이트에 접속하여 계정에 연결할 지갑을 선택합니다.</li> 
+                    <li>지갑이 없다면 지갑을 생성합니다.</li> 
+                    <li>선인장 리스트를 클릭하여 collection 에서 선인장을 고릅니다.</li> 
+                    <li>구매 방식을 선택하여 결제합니다.</li> 
+                </ol> 
+            </p>
+            <br>
+            <h2>선인장 노래 듣기</h2>
+            <p>
+                <iframe width="640" height="588" src="https://www.youtube.com/embed/gToTSY3rcaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            <br><br>
+            <h3>댓글추가</h3>
+            <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://babycactus.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
 
 </body>
 </html>
